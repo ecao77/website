@@ -20,7 +20,7 @@ export default function Home() {
           
         </p>
         <h1 className="title">
-          <Link href="/page2">
+          <Link href="/index">
             <a>Go Back</a>
           </Link>
 </h1>
