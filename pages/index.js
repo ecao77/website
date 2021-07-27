@@ -20,7 +20,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="webpage.js" className={styles.card}>
+          <a href="https://surviv.io" className={styles.card}>
             <h3>Other webpage &rarr;</h3>
             <p>Go to Goosy Webpage</p>
           </a>
