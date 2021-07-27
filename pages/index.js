@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Goosy! Goosy eats goose.
+          Homepage.
         </h1>
 
         <p className={styles.description}>
