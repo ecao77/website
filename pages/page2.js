@@ -19,7 +19,7 @@ export default function Home() {
           it is blog time
           
         </p>
-          <Link href="/index">
+          <Link href="/">
             <a>Go Back</a>
           </Link>
 
