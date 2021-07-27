@@ -21,10 +21,11 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://surviv.io" className={styles.card}>
-            <h3>Other webpage &rarr;</h3>
-            <p>Go to Goosy Webpage</p>
-          </a>
+        <h1 className="title">
+          <Link href="/page2">
+            <a>Go Back</a>
+          </Link>
+        </h1>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h3>Learn &rarr;</h3>
