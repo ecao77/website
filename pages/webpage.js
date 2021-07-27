@@ -20,9 +20,9 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="index.js" className={styles.card}>
             <h3>Other webpage &rarr;</h3>
-            <p>Go to Goosy Webpage</p>
+            <p>Go Back</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
