@@ -49,6 +49,14 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <h1 className="title">
+          Read{' '}
+          <Link href="/page2">
+            <a>this page!</a>
+          </Link>
+        </h1>
+
       </main>
 
       <footer className={styles.footer}>
