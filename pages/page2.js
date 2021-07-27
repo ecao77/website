@@ -19,13 +19,11 @@ export default function Home() {
           it is blog time
           
         </p>
-
-        <div className={styles.grid}>
         <h1 className="title">
           <Link href="/page2">
             <a>Go Back</a>
           </Link>
-        </h1>
+</h1>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h3>Learn &rarr;</h3>
