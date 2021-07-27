@@ -12,19 +12,19 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          SECOND PAGE!!!
+          Sample Page
         </h1>
 
         <p className={styles.description}>
-          it is blog time
-          
+          Get started by editing{' '}
+          <code className={styles.code}>pages/index.js</code>
         </p>
-           <h1 className="title">
-          <Link href="/page2">
-            <a>Go Back</a>
-          </Link>
-        </h1>
 
+        <div className={styles.grid}>
+          <a href="https://surviv.io" className={styles.card}>
+            <h3>Other webpage &rarr;</h3>
+            <p>Go to Goosy Webpage</p>
+          </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h3>Learn &rarr;</h3>
@@ -49,9 +49,16 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <h1 className="title">
+          Read{' '}
+          <Link href="/page2">
+            <a>this page!</a>
+          </Link>
+        </h1>
+
       </main>
 
-      
     </div>
   )
 }
