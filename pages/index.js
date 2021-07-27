@@ -15,16 +15,12 @@ export default function Home() {
           Homepage.
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
         <div className={styles.grid}>
-          <a href="https://surviv.io" className={styles.card}>
+          <Link href="/"> <a> className={styles.card}>
             <h3>Other webpage &rarr;</h3>
-            <p>Go to Goosy Webpage</p>
+            <p>Go to Goosy Webpage</p> 
           </a>
+          </Link>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h3>Learn &rarr;</h3>
